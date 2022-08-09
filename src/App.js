@@ -50,14 +50,14 @@ function App() {
 
     <div className="App">
 
-      <h1 id='to-do-list'> 📔 TO do list app</h1>
+      <h1 id='to-do-list'>  TO do list app</h1>
       <br></br>
-      <input type={'text'} placeholder=" 📝 Write Item" value={listName} onChange={HandleChange}></input>
-      <button style={{ color: "black" }} onClick={listItem} >Add 🙂</button>
+      <input type={'text'} placeholder="  Write Item" value={listName} onChange={HandleChange}></input>
+      <button style={{ color: "black" }} onClick={listItem} >Add</button>
       <ul>
         {list.map((item, index) => {
-          return <li key={index} style={{ color: "black" }}>{item} <button onClick={() => toEdit(index)}>✏️</button>
-            <button style={{ color: "" }} onClick={() => toRemove(index)}> ❎</button>
+          return <li key={index} style={{ color: "white" }}>{item} <button onClick={() => toEdit(index)}>Edit</button>
+            <button style={{ color: "" }} onClick={() => toRemove(index)}> Delete</button>
           </li>
         })}
 

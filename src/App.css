@@ -5,14 +5,10 @@
   border-radius: 10px;
 margin-top: 10%;
  margin-left: 40%;
- background-color: brown;
+ background-color: rgb(6, 5, 5);
 }
 #to-do-list{
   color: rgb(152, 32, 231);
 
-}
-body{
-  background-image: url(./image/todolist.jpg);
-  /* border: 20px solid red; */
 }
 
